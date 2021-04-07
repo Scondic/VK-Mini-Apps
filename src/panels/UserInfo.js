@@ -12,7 +12,7 @@ const UserInfo = props => (
 	<Panel id={props.id}>
 		<PanelHeader
 			left={<PanelHeaderBack onClick={props.go} data-to="home"/>}
-			right={<PanelHeaderBack onClick={this.props.onBackClick} />}
+			right={<PanelHeaderBack onClick={props.onBackClick} />}
 		>
 			Получение информации о пользователе
 		</PanelHeader>
@@ -22,6 +22,7 @@ const UserInfo = props => (
 UserInfo.propTypes = {
 	id: PropTypes.string.isRequired,
 	go: PropTypes.func.isRequired,
+	onBackClick: PropTypes.func.isRequired
 };
 
 export default UserInfo;
