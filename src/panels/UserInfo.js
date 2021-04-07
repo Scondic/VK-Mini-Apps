@@ -9,6 +9,7 @@ const UserInfo = props => (
 	<Panel id={props.id}>
 		<PanelHeader
 			left={<PanelHeaderBack onClick={props.go} data-to="home"/>}
+			style={{fontWeight=600}}
 		>
 			Получение информации о пользователе
 		</PanelHeader>
