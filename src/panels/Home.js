@@ -28,7 +28,7 @@ const Home = ({ id, go, fetchedUser }) => (
 				<Button stretched size="l" mode="secondary" onClick={go} data-to="persik">
 					Show me the Persik, please
 				</Button>
-				<Button stretched size="l" mode="secondary" onClick={go} data-to="userInfo">
+				<Button stretched size="l" mode="secondary" style={{ marginTop: 12 }} onClick={go} data-to="userInfo">
 					Показать информацию о пользователе
 				</Button>
 			</Div>
