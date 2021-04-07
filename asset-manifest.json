@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/VK-Mini-Apps/static/css/main.94d9d93e.chunk.css",
-    "main.js": "/VK-Mini-Apps/static/js/main.823561af.chunk.js",
-    "main.js.map": "/VK-Mini-Apps/static/js/main.823561af.chunk.js.map",
+    "main.js": "/VK-Mini-Apps/static/js/main.6d4cf05d.chunk.js",
+    "main.js.map": "/VK-Mini-Apps/static/js/main.6d4cf05d.chunk.js.map",
     "runtime-main.js": "/VK-Mini-Apps/static/js/runtime-main.5ed6dc89.js",
     "runtime-main.js.map": "/VK-Mini-Apps/static/js/runtime-main.5ed6dc89.js.map",
     "static/css/2.92d02543.chunk.css": "/VK-Mini-Apps/static/css/2.92d02543.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.92d02543.chunk.css",
     "static/js/2.a591194a.chunk.js",
     "static/css/main.94d9d93e.chunk.css",
-    "static/js/main.823561af.chunk.js"
+    "static/js/main.6d4cf05d.chunk.js"
   ]
 }
