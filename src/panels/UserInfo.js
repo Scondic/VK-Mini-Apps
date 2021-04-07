@@ -5,7 +5,7 @@ import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
 import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
 import PanelHeaderBack from '@vkontakte/vkui/dist/components/PanelHeaderBack/PanelHeaderBack';
 
-const Persik = props => (
+const UserInfo = props => (
 	<Panel id={props.id}>
 		<PanelHeader
 			left={<PanelHeaderBack onClick={props.go} data-to="home"/>}
@@ -16,9 +16,9 @@ const Persik = props => (
 	</Panel>
 );
 
-Persik.propTypes = {
+UserInfo.propTypes = {
 	id: PropTypes.string.isRequired,
 	go: PropTypes.func.isRequired,
 };
 
-export default Persik;
+export default UserInfo;
